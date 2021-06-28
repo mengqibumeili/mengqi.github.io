@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lenovo</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 在script中添加defer可以让js文件等到文档执行完再加载，避免提前加载出现对象是null -->
+ <script  defer src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <!-- 导航栏开始 -->
+    <header>
+        <div id="hd_nav">
+            <div id="hd_logo">
+                <a href="#" id="logo"><img src="./img/logo.png" alt="联想商城"></a>
+            </div>
+            <div id="hd_center">
+                <ul>
+                    <li><span class="nav_items"><a href="#"><em>商城</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>企业购</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>服务</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>会员</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>社区</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>门店</em></a></span></li>
+                    <li><span class="nav_items"><a href="#"><em>品牌</em></a></span></li>
+                </ul>
+            </div>
+            <div id="hd_right">
+                <div id="hd_rightsearch">
+                    <a href="#"><img src="./img/search.png" alt="搜索"></a>
+                </div>
+                <div id="hd_rightlogin">
+                    <span class="hd_rightreginster"><a href="#">登录</a></span>
+                    <span class="hd_rightreginster"><a href="#">|</a></span>
+                    <span class="hd_rightreginster"><a href="#">注册</a></span>
+                    <a href="#"><img src="./img/shop.png" alt="购物车"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 导航栏结束，主体部分开始 -->
+    <section>
+        <!-- 轮播图开始 -->
+        <div id="wrap">
+            <a href="javascript:;" class="arrow_left">&lt;</a>
+            <a href="javascript:;" class="arrow_right">&gt;</a>
+            <ul id="tab">
+                <li>
+                    <div class="selected" onclick = 'movePho(ev)'></div>
+                </li>
+                <li><a href="">
+                        <div class="select"></div>
+                    </a></li>
+                <li><a href="">
+                        <div class="select"></div>
+                    </a></li>
+                <li><a href="">
+                        <div class="select"></div>
+                    </a></li>
+                <li><a href="">
+                        <div class="select"></div>
+                    </a></li>
+                <li><a href="">
+                        <div class="select"></div>
+                    </a></li>
+            </ul>
+            <ul id="focus">
+                <li>
+                    <a href="#"><img src="./img/pic1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/pic2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/pic4.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/pic5.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/pic6.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <!-- 轮播图结束,产品开始 -->
+        <div id="product">
+            <div id="tab_nav">
+                <div class="tab_item">
+                    <p>个人及家庭产品</p>
+                </div>
+                <div class="tab_item">
+                    <p>中小企业产品</p>
+                </div>
+                <div class="tab_item">
+                    <p>商用大客户产品</p>
+                </div>
+                <div class="tab_item">
+                    <p>智能基础设施产品与方案</p>
+                </div>
+                <div class="tab_item">
+                    <p>行业智能软件产品</p>
+                </div>
+            </div>
+
+            <div id="content_tab">
+                <div class="content_item">
+                    <img src="./img/computer.png" alt="">
+                    <p>Lenovo 台式机</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/computer11.png" alt="">
+                    <p>Lenovo 笔记本</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/computer11.png" alt="">
+                    <p>Thinkpad 电脑</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/pingban1.png" alt="">
+                    <p>网课 平板</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/phone1.png" alt="">
+                    <p>手机</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/mouse1.png" alt="">
+                    <p>选件/服务</p>
+                </div>
+                <div class="content_item">
+                    <img src="./img/print1.png" alt="">
+                    <p>智能产品/打印机</p>
+                </div>
+            </div>
+
+            <div id="product_detail">
+                <div class="pro">
+                    <a href="#">
+                        <img class="pro_pic" src="./img/product1.png" alt="">
+                    <div class="introduction">
+                        <p>联想平板小新Pad</p>
+                        <p class="introduct_2"> Qualcomm® Snapdragon™ 730G/8核/Android系统/11.5英寸/6G/128G/WIFI版/深空灰</p>
+                        <p>
+                            <span>￥ 1999</span>
+                        </p>
+                    </div>
+                    </a> 
+                </div>
+                <div class="pro">
+                    <a href="">
+                        <img class="pro_pic" src="./img/product2.png" alt="">
+                        <div class="introduction">
+                            <p>联想平板小新Pad</p>
+                            <p class="introduct_2"> Qualcomm® Snapdragon™ 730G/8核/Android系统/11.5英寸/6G/128G/WIFI版/深空灰</p>
+                            <p>
+                                <span>￥ 1999</span>
+                            </p>
+                        </div>
+                    </a>                  
+                </div>
+                <div class="pro">
+                    <a href="#">
+                        <img class="pro_pic" src="./img/product3.png" alt="">
+                        <div class="introduction">
+                            <p>联想平板小新Pad</p>
+                            <p class="introduct_2"> Qualcomm® Snapdragon™ 730G/8核/Android系统/11.5英寸/6G/128G/WIFI版/深空灰</p>
+                            <p>
+                                <span>￥ 1999</span>
+                            </p>
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+            <div id="product_detail_wrap">
+                    <div class="pro_item">
+                        <a href=""><img src="./img/details1.jpg" alt=""></a>
+                     </div>
+                     <div class="pro_item_2">
+                         <div class="pro_item_content">
+                             <a href=""><img src="./img/details2.jpg" alt=""></a>
+                         </div>
+                         <div class="pro_item_content">
+                             <a href=""><img src="./img/details3.jpg" alt=""></a>
+                         </div>
+                     </div>               
+            </div>
+        </div>
+        <!-- 产品结束，案例开始 -->
+        <div id="case_wrap">    
+                <h2>成功案例</h2>
+                <a href="#" class="more">
+                   <p> 更多 &gt;</p>
+                </a>                   
+                <div id="case_content">
+                    <div class="case">
+                        <a href=""><img src="./img/case1.jpg" alt=""></a>
+                    </div>
+                    <div class="case">
+                        <a href=""><img src="./img/case2.jpg" alt=""></a>
+                    </div>
+                    <div class="case">
+                        <a href=""><img src="./img/case3.png" alt=""></a>
+                    </div>
+                </div>
+           </div>       
+        <!-- 案例结束，活动开始 -->
+        <div id="activity_wrap">    
+            <h2>市场活动</h2>
+            <a href="#" class="more">
+               <p> 更多 &gt;</p>
+            </a>                   
+            <div id="activity_content">
+                <div class="activity">
+                    <a href=""><img src="./img/activiity1.jpg" alt=""></a>
+                </div>
+                <div class="activity">
+                    <a href=""><img src="./img/activiity2.jpg" alt=""></a>
+                </div>
+                <div class="activity">
+                    <a href=""><img src="./img/activiity3.jpg" alt=""></a>
+                </div>
+            </div>
+       </div>     
+        <!-- 活动结束，新闻开始 -->
+        <div id="news_wrap">    
+            <h2>新闻中心</h2>
+            <a href="#" class="more">
+               <p> 更多 &gt;</p>
+            </a>   
+            <div class="clearfix"></div>                
+            <div id="news_content">
+               <div id="news_detail">
+                   <a href="#"><img src="./img/news.jpg" alt=""></a>
+               </div>
+               <div id="news_word">
+                   <div class="news_items">
+                       <div class="news_left">
+                           <h3>01</h3>
+                           <p>2021年04月01日</p>
+                       </div>
+                       <div class="news_right">
+                           <h3>联想中国全链路构建与用户直接对话通道</h3>
+                           <p>联想中国全链路构建与用户直接对话通道</p>
+                           <i class="news_arrow"></i>
+                       </div>
+                   </div>
+                   <div class="news_items">
+                       <div class="news_left">
+                           <h3>01</h3>
+                           <p>2021年04月01日</p>
+                       </div>
+                       <div class="news_right">
+                           <h3>联想中国新财年铁血誓师 </h3>
+                           <p>4月14日，联想中国举行2021/22财年誓师大会。</p>
+                           <i class="news_arrow"></i>
+                       </div>
+                   </div>
+                   <div class="news_items">
+                       <div class="news_left">
+                           <h3>01</h3>
+                           <p>2021年04月01日</p>
+                       </div>
+                       <div class="news_right">
+                           <h3>联想拯救者疯狂电竞周末</h3>
+                           <p>4月18日，国内顶尖电竞选手齐聚武汉</p>
+                           <i class="news_arrow"></i>
+                       </div>
+                   </div>
+               </div>
+               
+            </div>
+       </div>    
+        <!-- 新闻结束，推荐热门板块开始 -->
+        <div id="hot_wrap">    
+            <h2>热门推荐板块</h2>
+            <a href="#" class="more">
+               <p> 更多 &gt;</p>
+            </a>                   
+            <div id="hot_content">
+                <div class="hot">
+                    <a href=""><img src="./img/hot.jpg" alt=""></a>
+                </div>
+                <div class="hot">
+                    <a href=""><img src="./img/hot1.jpg" alt=""></a>
+                </div>
+                <div class="hot">
+                    <a href=""><img src="./img/hot2.jpg" alt=""></a>
+                </div>
+            </div>
+       </div>    
+    </section>
+    <!-- 主体部分结束，尾部开始 -->
+    <footer>
+        <div id="foot_top">
+            <ul>
+                <li class="info about_lenovo">
+                    <a class="foot_top_title" href="#" title="关于联想">关于联想</a>
+                    <a class="foot_top_title" href="#" title="关于联想">加入我们</a>
+                    <a class="foot_top_title" href="#" title="关于联想">联系我们</a>
+                    <a class="foot_top_title" href="#" title="关于联想">参观联想</a>
+                    <a class="foot_top_title" href="#" title="关于联想">销售网点查询</a>
+                    <a class="foot_top_title" href="#" title="关于联想">服务网点查询</a>
+                    <a class="foot_top_title" href="#" title="关于联想">环境信息</a>
+                </li>
+                <li class="info shop_lenovo">
+                    <a href="#" class="foot_top_title" title="联想服务">联想商城</a>
+                    <a href="#" class="foot_top_title" title="联想服务">今日秒杀</a>
+                    <a href="#" class="foot_top_title" title="联想服务">联想合伙人</a>
+                    <a href="#" class="foot_top_title" title="联想服务">私人定制</a>
+                    <a href="#" class="foot_top_title" title="联想服务">以旧换新</a>
+                    <a href="#" class="foot_top_title" title="联想服务">积分商城</a>
+                </li>
+                <li class="info service_lenovo">
+                    <a href="#" class="foot_top_title" title="联想服务">联想服务</a>
+                    <a href="#" class="foot_top_title" title="联想服务">驱动与软件下载</a>
+                    <a href="#" class="foot_top_title" title="联想服务">热门解决方案</a>
+                    <a href="#" class="foot_top_title" title="联想服务">lenoco quick Fix 工具</a>
+                    <a href="#" class="foot_top_title" title="联想服务">24小时智能服务</a>
+                    <a href="#" class="foot_top_title" title="联想服务">保修配置查询</a>
+                </li>
+                <li class="info service_lenovo">
+                    <a href="#" class="foot_top_title" title="联想商城"></a>
+                    <a href="#" class="foot_top_title" title="联想商城">服务政策查询</a>
+                    <a href="#" class="foot_top_title" title="联想商城">上门快修</a>
+                    <a href="#" class="foot_top_title" title="联想商城">延长保修</a>
+                    <a href="#" class="foot_top_title" title="联想商城">更多服务</a>
+              
+                </li>
+                <li class="info lenovo_website">
+                    <a href="#" class="foot_top_title" title="联想网站城">联想网站群</a>
+                    <a href="#" class="foot_top_title" title="联想网站城">联想创投</a>
+                    <a href="#" class="foot_top_title" title="联想网站城">聚享汇</a>
+                    <a href="#" class="foot_top_title" title="联想网站城">联想电脑管家</a>
+                    <a href="#" class="foot_top_title" title="联想网站城">联想超融合</a>
+                    <a href="#" class="foot_top_title" title="联想网站城">联想研究院</a>
+                </li>
+                <li class="info lenovo_website">
+                    <a href="#" class="foot_top_title" title="联想商城"></a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想数据中心</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想Filez</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想百应平台</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想租赁商城</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想企业网盘</a>
+                </li>
+                <li class="info lenovo_website">
+                    <a href="#" class="foot_top_title" title="联想商城"></a>
+                    <a href="#" class="foot_top_title" title="联想商城">TThinkPad官网</a>
+                    <a href="#" class="foot_top_title" title="联想商城">lecoo商城</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想大数据</a>
+                    <a href="#" class="foot_top_title" title="联想商城">联想商用官网</a>
+                </li>
+                <ul>
+        </div>
+        <div id="foot_mid">
+            <ul id="fm">
+                <li class="connect">
+                    <div class="flm">
+                        <div class="hottime">
+                            <span>个人及家庭产品</span>
+                            <span>400 990 880</span>
+                        </div>
+                        <div class="dailytime">
+                            9:00-18:00 (周一至周日)
+                        </div>
+                    </div>
+                </li>
+                <li class="connect">
+                    <div class="flm">
+                        <div class="hottime">
+                            <span>中小型企业产品</span>
+                            <span>400 990 880</span>
+                        </div>
+                        <div class="dailytime">
+                            9:00-18:00 (周一至周日)
+                        </div>
+                    </div>
+                </li>
+                <li class="connect">
+                    <div class="flm">
+                        <div class="hottime">
+                            <span>政企大客户产品</span>
+                            <span>400 990 880</span>
+                        </div>
+                        <div class="dailytime">
+                            9:00-18:00 (周一至周日)
+                        </div>
+                    </div>
+                </li>
+                <li class="connect">
+                    <div class="flm">
+                        <ul id="social">
+                            <li class="ico" id="weibo"><a href="#"></a></li>
+                            <li class="ico" id="weixin"><a href="#"></a></li>
+                            <li class="ico" id="feixin"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="connect">
+                    <div class="flm">
+                        <div class="hottime">
+                            <span>个人及家庭产品</span>
+                            <span>400 990 880</span>
+                        </div>
+                        <div class="dailytime">
+                            9:00-18:00 (周一至周日)
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="foot_bot">
+
+        </div>
+    </footer>
+    <!-- 尾部结束 -->
+</body>
+
+</html>
